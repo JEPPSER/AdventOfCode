@@ -1,9 +1,9 @@
-package main.One
+package main.Day1
 
 import scala.io.Source
 
 object Main extends App {
-  val filename = "src/main/one/input.txt"
+  val filename = "src/main/day1/input.txt"
   val values = Source.fromFile(filename).getLines.toArray.map((s: String) => s.toInt)
   println(checkIncrease(1, 0, values))
 

@@ -1,9 +1,9 @@
-package main.Two
+package main.Day2
 
 import scala.io.Source
 
 object Main extends App {
-  val filename = "src/main/two/input.txt"
+  val filename = "src/main/day2/input.txt"
   val values = Source.fromFile(filename).getLines.toArray
   println(moveSubmarine(0, 0, 0, values))
 
